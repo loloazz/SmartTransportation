@@ -30,7 +30,7 @@ public class CarToKafka {
         String line = null;
         while ((line=bufferedReader.readLine())!=null){
 
-            ProducerRecord<String, String> cars = new ProducerRecord<>("cars", line);
+            ProducerRecord<String, String> cars = new ProducerRecord<>("car", line);
             producer.send(cars);
 
             producer.flush();
