@@ -37,6 +37,9 @@ public class RealTimeCardWindowFlow {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
 
+
+
+
         //读取卡口过车数据
 
         Properties properties = new Properties();
