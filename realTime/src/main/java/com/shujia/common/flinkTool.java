@@ -18,7 +18,7 @@ public  class flinkTool {
     private static StreamExecutionEnvironment env = null;
 
 
-    private flinkTool() throws IOException {
+    private flinkTool() {
 
     }
 
