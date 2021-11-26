@@ -1,6 +1,5 @@
 package com.shujia.bean;
 
-import lombok.*;
 
 
 public class cars {
